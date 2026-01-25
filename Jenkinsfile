@@ -1,6 +1,6 @@
 @Library('shared') _
 pipeline {
-    agent any
+    agent { label 'master' }
     
     environment{
         SONAR_HOME = tool "Sonar"
