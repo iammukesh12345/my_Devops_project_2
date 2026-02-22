@@ -12,7 +12,7 @@ helm repo update
 
 helm install mongo bitnami/mongodb \
   --set auth.rootPassword=root123 \
-  --set auth.username=appuser \
+  --set auth.username=user \
   --set auth.password=apppass \
   --set auth.database=wanderlust
 
